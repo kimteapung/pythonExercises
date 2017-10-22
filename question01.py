@@ -1,7 +1,3 @@
-##***kimteapung***
-##
-##Python 3.x.x
-##
 ##Question 1
 ##Level 1
 ##
@@ -13,3 +9,8 @@
 ##Hints: 
 ##Consider use range(#begin, #end) method
 
+numbers = ""
+for number in range(2000, 3201):
+    if number%7 == 0 and number%5 != 0:
+        numbers += str(number)+","
+print numbers
